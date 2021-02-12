@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entiti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{A6E2E9B0-FBD6-43C8-9B64-19FFFE689337}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{8841B54C-66FF-412D-8144-1C348DC63749}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{8841B54C-66FF-412D-8144-1C348DC63749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{B9917F4C-A917-4DDB-BB75-4AB2E91FD650}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8841B54C-66FF-412D-8144-1C348DC63749}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8841B54C-66FF-412D-8144-1C348DC63749}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8841B54C-66FF-412D-8144-1C348DC63749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9917F4C-A917-4DDB-BB75-4AB2E91FD650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9917F4C-A917-4DDB-BB75-4AB2E91FD650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9917F4C-A917-4DDB-BB75-4AB2E91FD650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9917F4C-A917-4DDB-BB75-4AB2E91FD650}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
