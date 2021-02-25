@@ -15,8 +15,23 @@ namespace ConsoleUI
             //CarTest();
             //BrandTest();
             //ColorGetAllTest();
+            //GetRentalDetails();
+            //CarAddTest();
+            //CarGetAllTest();
+
+            
+
+
+
+
+        }
+
+        
+
+        private static void GetRentalDetails()
+        {
             RentalManager rentalManager = new RentalManager(new EfRentalDal());
-            var result= rentalManager.GetRentDetails();
+            var result = rentalManager.GetRentDetails();
             if (result.Success == true)
             {
                 foreach (var rental in result.Data)
@@ -25,11 +40,6 @@ namespace ConsoleUI
 
                 }
             }
-
-
-            //CarAddTest();
-            //CarGetAllTest();
-
         }
 
         private static void CarAddTest()
